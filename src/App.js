@@ -1,24 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import CreationForm from './CreationForm';
+import AdsBlock from './AdsBlock';
+import { getAllAdverts, setAdvertsAtLS } from './localStorageService';
 import './App.css';
 
 function App() {
+
+  const [adverts, setAdverts] = useState([]);
+
+  React.useEffect(() => {
+    setAdverts(getAllAdverts());
+  }, [])
+
+  function addAdvert(advertObj) {
+    setAdverts([advertObj, ...adverts]);
+    setAdvertsAtLS([advertObj, ...adverts]);
+  }
+
+  function removeAdvert(id) {
+    const advRemoveIndx = adverts.findIndex((value) => value.id === id);
+    const newAdvertsArr = adverts.slice(0, advRemoveIndx).concat(adverts.splice(advRemoveIndx + 1));
+    setAdverts(newAdvertsArr);
+    setAdvertsAtLS(newAdvertsArr);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="containter col-lg-8 col-md-10 col-sm-12 row d-flex justify-content-center mx-auto">
+      <CreationForm addAdvert={addAdvert} />
+      <AdsBlock adverts={adverts} removeAdvert={removeAdvert} />
     </div>
   );
 }
