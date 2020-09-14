@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e14589d509a3077f1add9336bd862cdb",
+    "revision": "bbcc62e20a5ea7c81dc9a08601bea2ed",
     "url": "/ED4M/CRUD-React-TestTask/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ED4M/CRUD-React-TestTask/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "72d7de2015736aba7889",
+    "revision": "536eef0e1f0ba0f7d4c7",
     "url": "/ED4M/CRUD-React-TestTask/static/css/main.b5e697d3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ED4M/CRUD-React-TestTask/static/js/2.7f4be047.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72d7de2015736aba7889",
-    "url": "/ED4M/CRUD-React-TestTask/static/js/main.37b958c2.chunk.js"
+    "revision": "536eef0e1f0ba0f7d4c7",
+    "url": "/ED4M/CRUD-React-TestTask/static/js/main.735a9e0e.chunk.js"
   },
   {
     "revision": "8cb7e61d69e114ad72ac",
