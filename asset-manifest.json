@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ED4M/CRUD-React-TestTask/static/css/main.b5e697d3.chunk.css",
+    "main.js": "/ED4M/CRUD-React-TestTask/static/js/main.37b958c2.chunk.js",
+    "main.js.map": "/ED4M/CRUD-React-TestTask/static/js/main.37b958c2.chunk.js.map",
+    "runtime-main.js": "/ED4M/CRUD-React-TestTask/static/js/runtime-main.0dff602e.js",
+    "runtime-main.js.map": "/ED4M/CRUD-React-TestTask/static/js/runtime-main.0dff602e.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/ED4M/CRUD-React-TestTask/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.7f4be047.chunk.js": "/ED4M/CRUD-React-TestTask/static/js/2.7f4be047.chunk.js",
+    "static/js/2.7f4be047.chunk.js.map": "/ED4M/CRUD-React-TestTask/static/js/2.7f4be047.chunk.js.map",
+    "index.html": "/ED4M/CRUD-React-TestTask/index.html",
+    "precache-manifest.ccbbb2d1c1f4aa6dc9542647b43fa642.js": "/ED4M/CRUD-React-TestTask/precache-manifest.ccbbb2d1c1f4aa6dc9542647b43fa642.js",
+    "service-worker.js": "/ED4M/CRUD-React-TestTask/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/ED4M/CRUD-React-TestTask/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.b5e697d3.chunk.css.map": "/ED4M/CRUD-React-TestTask/static/css/main.b5e697d3.chunk.css.map",
+    "static/js/2.7f4be047.chunk.js.LICENSE.txt": "/ED4M/CRUD-React-TestTask/static/js/2.7f4be047.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0dff602e.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.7f4be047.chunk.js",
+    "static/css/main.b5e697d3.chunk.css",
+    "static/js/main.37b958c2.chunk.js"
+  ]
+}
